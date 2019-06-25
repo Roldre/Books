@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Questioner | Admin</title>
+    <meta charset ="utf-8"/>
+    <meta  name ="viewport" content ="width = device-width "/>
+    <meta name = "description" content = "stylistic web page"/>
+    <meta name = "keywords" content =  " stylistic, webpage, realweb"/>
+    <meta name = "author "  content = "Nasrullah"/>
+    <link rel ="stylesheet" href = "./css/index.css"/>
+</head>
+
+<body id="body" onload="display()" >
+    <h1 id = "header"> </h1>
+
+    <section class="container">
+        <form name ="my_form">
+            <div id="form">
+            <label> FIRST NAME:</label> <br>
+            <input  value ="ADE" id= "input_1" type="text" name ="First_name" placeholder="First_name"required> <br><br>
+            <label> LAST NAME:</label><br>
+            <input type="text" name ="Last_name" placeholder="Last_name"required> <br> <br>
+             <select onchange="see(this)" id= "select">
+                <option name="red" value ="RED"> Red</option>
+                <option name ="yellow" value ="YELLOW"> Yellow</option>
+                <option name = "green" value= "GREEN"> Green</option>
+             </select>
+            <button onmouseover="showdate(this)" onmouseout = "closedate(this)"  type="submit" id="kimon"  > SUBMIT</button>
+
+            </div>
+        </form>
+
+    </section>    
+
+
+
+
+<script src="js/index.js"></script>
+</body>
+</html>
